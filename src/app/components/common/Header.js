@@ -12,14 +12,13 @@ export default class Header extends Component {
           <span className="icon-bar"></span>
           <span className="icon-bar"></span>
         </button>
-        <a className="navbar-brand" href="#">Brand</a>
+        <Link to="/" className="navbar-brand">CodedEgg</Link>
       </div>
 
       <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul className="nav navbar-nav">
-          <li><Link to="home">Home</Link></li>
-          <li><Link to="page1">Page1</Link></li>
-          <li><Link to="page2">Page2</Link></li>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/search">Search</Link></li>
         </ul>
       </div>
     </div>
